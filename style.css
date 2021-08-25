@@ -114,7 +114,7 @@ nav .gg-menu {
     }
 
     .nav-links{
-        position: absolute  ;
+        position: fixed  ;
         background: #f44336;
         height: 100vh;
         width: 200px;
@@ -510,14 +510,14 @@ h3{
     background: #f0f0f0;
 }
 
-.comment-form button{
+.Button{
     margin: 10px 0;
 }
 
-.comment-form Button{
+.Button{
     display: inline-block;
     text-decoration: none;
-    color:rgb(158, 106, 9);
+    color:rgb(20, 17, 12);
     border: 1px solid rgb(209, 126, 126);
     padding: 12px 34px;
     font-size: 13px;
@@ -525,8 +525,8 @@ h3{
     position: relative;
 }
 
-.comment-form Button:hover{
-    border: 1px solid #1e64e7;
+.Button:hover{
+    border: 1px solid #e90ed7;
     background:pink;
     transition: 1s;
 }
@@ -537,8 +537,60 @@ h3{
     }
 }
 
+/* <!-- ------------  contact Us  ------------ --> */
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+
+}
+
+.location iframe{
+    width: 100%;
+}
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div p{
+    padding: 0;
+}
+
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.contact-col div p{
+    margin-left: 25px;
+}
 
 
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+}
 
 
 
