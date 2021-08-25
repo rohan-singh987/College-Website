@@ -79,7 +79,7 @@ nav img{
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color:aliceblue;
+    color:rgb(233, 153, 48);
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
@@ -90,8 +90,8 @@ nav img{
 
 .hero-btn:hover{
     border: 1px solid #1e64e7;
-    background: #7bcbdf;
-    transition: 2s;
+    background: #107186c5;
+    transition: 1s;
 }
 
 
@@ -394,15 +394,12 @@ h3{
 
 
 
-
-
 /* ---------------------- About Us page  ------------------------- */
-
 
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/background.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://www.laketech.org/wp-content/uploads/2021/05/Graduation-061021.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -440,6 +437,116 @@ h3{
 .red-btn{
     border:  1px solid #db857f;
     background: transparent;
-    color: rgb(134, 34, 134);
-
+    color: rgb(147, 150, 146);
 } 
+
+
+
+/* --------------- Blog-content -------------- */
+
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.blog-left{
+    flex-basis: 65%;
+}
+
+.blog-left img{
+    width: 100%;
+}
+
+.blog-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.blog-left p{
+    color:darkslategray ;
+    padding: 0;
+}
+
+.blog-right{
+    flex-basis: 32%;
+}
+
+.blog-right h3{
+    background: #dfa6a1;
+    color: rgb(19, 31, 37);
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.commentbox{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.commentbox h3{
+    text-align: left;
+}
+
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+
+.comment-form button{
+    margin: 10px 0;
+}
+
+.comment-form Button{
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(158, 106, 9);
+    border: 1px solid rgb(209, 126, 126);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+}
+
+.comment-form Button:hover{
+    border: 1px solid #1e64e7;
+    background:pink;
+    transition: 1s;
+}
+
+@media(max-width:700px){
+    .sub-header h1{
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
